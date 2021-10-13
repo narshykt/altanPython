@@ -78,3 +78,5 @@ while True:
     except Exception as err:
         print(err)
         continue
+    print(f'Result: {b}')
+    break
