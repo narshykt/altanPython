@@ -113,7 +113,7 @@ class Net:
         res.append(self.n0(data, [-1.5, 0.0, 0.75]))
         res.append(self.n1(data, [0.5, 0.5, 1.7]))
         res.append(self.n2(data, [-2.5, -1.0, 0.5]))
-        res = self.n3(res, [-3.5, -1.0, 0.5])
+        res = self.n3(res, [-2.5, -1.0, 0.5])
         print(res)
 
 nn = Net()
